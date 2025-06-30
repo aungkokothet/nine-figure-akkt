@@ -3,19 +3,19 @@ import { BusinessAnalysis } from "./business-analysis";
 export const Services = () => {
   const menus = [
     {
-      title: "Business Analysis",
+      title: "4F: Solid Business Foundation",
     },
     {
-      title: "Strategic Consultancy",
+      title: "3F: Building Traction",
     },
     {
-      title: "Software Product Development",
+      title: "2F: Early Customers",
     },
     {
-      title: "Go-to-Market",
+      title: "1F: First Dollar Earned",
     },
-    {
-      title: "FundraisingOperational Efficiency",
+      {
+      title: "0F: Idea Stage",
     },
   ];
   return (

@@ -17,7 +17,7 @@ export const Contact = () => {
     <div className="p-10">
       <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
       <p className="mb-2">
-        Ready to elevate your tech startup or transform your corporate
+        Ready to elevate your business, build and lauch your tech startup or transform your corporate
         operations?
       </p>
       <p className="mb-8">

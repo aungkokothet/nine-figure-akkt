@@ -42,8 +42,18 @@ export const Header = () => {
         </div>
         <div className=" my-32">
           <h1 className="text-[60px] font-bold uppercase">9 Figures</h1>
-          <h1 className="text-[60px] font-bold uppercase">Startup Studio</h1>
-          <p className="text-xl">Empowering Innovation, Driving Growth</p>
+          <h1 className="text-[60px] font-bold uppercase">Incubation Systems</h1>
+          <p className="text-xl">Transforming Ambitious Businesses into App-Powered Economies</p>
+          <p className="text-xl"> <br />9F: Unicorn / Legacy Status</p>
+          <p className="text-xl">8F: Market Leadership</p>
+          <p className="text-xl">7F: Ecosystem-Backed Scaling</p>  
+          <p className="text-xl">6F: Serious Growth </p>
+          <p className="text-xl">5F: Scale Begins</p> 
+          <p className="text-xl">4F: Solid Business Foundation </p>
+          <p className="text-xl">3F: Building Traction </p>
+          <p className="text-xl">2F: Early Customers </p>
+          <p className="text-xl">1F: First Dollar Earned</p>
+          <p className="text-xl">0F: Idea Stage </p>
         </div>
       </div>
     </div>

@@ -3,42 +3,42 @@ export const Service = () => {
     {
       title: "Business Analysis",
       description:
-        "Market research, SWOT, Competitor & customer analysis, Business model evaluation",
+        "Discovery tools to clarify your current traction and future opportunity. Market research, SWOT, Competitor & customer analysis, Business model evaluation.",
       icon: "/analysis.png",
     },
     {
       title: "Strategic Consultancy",
       description:
-        "Business planning, Market entry & growth strategies, Competitive & digital strategy",
+        "System design, not just advice. Business architecture, value network strategy, and adaptive growth pathways rooted in your context.",
       icon: "/strategic.png",
     },
     {
       title: "Software Product Development",
       description:
-        "Product design, UI/UX, Architecture design, MVP development, Support & Maintenance",
+        "Apps that drive your business forward.From MVP scoping to UI/UX, technical architecture, and app maintenance—delivered using reDev, our method for building apps as scalable systems embedded in your business, not just tools beside it.",
       icon: "/development.png",
     },
     {
       title: "Go-to-Market",
       description:
-        "Identify target market, Unique value proposition, Brand positioning, Select marketing channels",
+        "We don't just help you launch—we help you pull. Target market clarity, value proposition design, brand anchoring, and distribution planning built for traction.",
       icon: "/gotomarket.png",
     },
     {
       title: "Fundraising",
       description:
-        "Financial modeling, Fundraising strategy, Investors relation and Legal",
+        "Execution-first capital systems. We guide you through financial modeling and CUE (Capital Utilization Efficiency)—helping you raise only what you need, when you need it. We also support IOU-based financing, investor preparation, and systems for pulling capital sustainably through results—not hype.",
       icon: "/fundraising.png",
     },
     {
       title: "Operational Efficiency",
-      description: "Resource management, Performance metrics and KPIs",
+      description: "Make your business work smarter, not harder. We help you set up clear roles, team rhythms, and performance metrics—so your operations stay focused, efficient, and aligned with what truly matters.",
       icon: "/operational.png",
     },
   ];
   return (
     <div className="bg-black  text-white px-10 py-16">
-      <h1 className="text-xl font-bold">Our Services</h1>
+      <h1 className="text-xl font-bold">Our Capabilities</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
         {services.map((s) => (
           <div className="" key={s.title}>
