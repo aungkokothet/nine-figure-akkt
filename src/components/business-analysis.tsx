@@ -1,29 +1,30 @@
 export const BusinessAnalysis = () => {
   const services = [
     {
-      title: "Market Research",
+      title: "Studio Program - Growth Journey Framework",
       description:
-        "Comprehensive research to understand market trends, customer needs, and competitive landscapes.",
+        "A step-by-step roadmap (0F to 4F) that helps businesses evolve through clear stages—from early traction to app-powered growth.",
     },
     {
-      title: "SWOT Analysis",
+      title: "Studio Program - Toolkits & Templates",
       description:
-        "Identifying strengths, weaknesses, opportunities, and threats for strategic planning.",
+        "Battle-tested tools for business clarity, stakeholder listening, and execution—used in weekly cycles to turn insights into real progress.",
     },
     {
-      title: "Business Model Evaluation",
+      title: "Studio Program - F.L.O.W (Founder - Business Fit)",
       description:
-        "Assessing the viability and scalability of business models for long-term success.",
+        "A structured reflection process that ensures the business grows in sync with what the founder truly cares about—sustainably and intentionally.",
     },
     {
-      title: "Competitor Analysis",
+      title: "Studio Program - Capital Pull Mechanisms",
       description:
-        "Analyzing competitors to understand their strategies and market positioning.",
+        "We embed capital logic (CUE, IOUs, Pods) into your growth journey—so you can fund progress through execution, not speculation.",
     },
   ];
   return (
     <div className="flex">
       <div className="w-2/3">
+        <h1 className="text-xl font-bold mb-4">9 Figures Studio Program Components </h1>
         {services.map((service, index) => (
           <div className="flex gap-2 mb-2">
             <div className="">
@@ -37,13 +38,6 @@ export const BusinessAnalysis = () => {
             </div>
           </div>
         ))}
-      </div>
-      <div className="w-1.5/3 flex justify-end">
-        <img
-          src="/services.png"
-          className="w-[300px] h-[200px] bg-center"
-          alt="services"
-        />
       </div>
     </div>
   );
