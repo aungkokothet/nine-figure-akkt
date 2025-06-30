@@ -1,14 +1,19 @@
 export const About = () => {
   const cardsData = [
     {
-      title: "Strategic Guidance",
+      title: "Strategic Architecture",
       description:
-        "We specialize in providing strategic guidance, cutting-edge technology implementation, and comprehensive business solutions.",
+        "We specialize in designing growth systems—combining strategic clarity, app development protocols, and capital efficiency models into one studio framework.",
     },
     {
-      title: "Client-Centric Approach",
+      title: "Founder-Driven by Design",
       description:
-        "With a client-centric approach, we ensure your vision and goals are at the heart of our efforts, providing the resources and direction needed to succeed in a competitive market",
+        "Our programs are built around your vision. We support founders who are ready to take action—with the rituals, tools, and capital logic to move from idea to embedded business.",
+    },
+     {
+      title: "What We Deliver",
+      description:
+        "At 9Figures, our studio program gives each business a structured path to grow: clear milestones, focused rituals, execution tools, and capital logic—all designed to turn ambition into app-powered traction. Every 9Figures Studio Program embeds six core capabilities—so businesses don’t just grow, they evolve into app-powered economies..",
     },
   ];
 
@@ -18,11 +23,7 @@ export const About = () => {
         <div className="mb-5">
           <h1 className="text-xl font-bold">About Us</h1>
           <p>
-            As startup veterans, we are a pivotal force in the startup
-            ecosystems of Singapore, Thailand, and Myanmar. With a proven track
-            record of organizing impactful events in Yangon and beyond, we
-            connect startups with tech industry leaders, delivering tangible
-            results with precision and excellence.
+           At 9Figures, we design incubation systems for app-powered businesses across Southeast Asia. From Singapore to Myanmar, we’ve helped founders transform their ambition into real traction—through studio programs, peer rituals, and growth architectures that scale. We don’t just consult. We build the conditions where businesses grow together and economies emerge from the ground up.
           </p>
         </div>
         {cardsData.map((c) => (
